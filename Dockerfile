@@ -68,7 +68,6 @@ USER sysop
 # copy scheli.sh to /home/sysop/
 COPY --chown=sysop:sysop --chmod=755 scheli.sh /home/sysop/
 COPY  --chown=sysop:sysop etc/scheli.cfg /opt/seiscomp/etc/scheli.cfg
-COPY  --chown=sysop:sysop inventory.xml /home/sysop/inventory.xml
 
 # set working directory to /home/sysop/
 WORKDIR /home/sysop/
