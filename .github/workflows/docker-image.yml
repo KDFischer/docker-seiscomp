@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Build the Docker image for scheli
       run: docker build . --file Dockerfile --target scheli --tag scheli:$(date +%s)
