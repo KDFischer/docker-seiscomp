@@ -13,6 +13,7 @@ LABEL org.opencontainers.image.authors=="Kasper D. Fischer <kasper.fischer@rub.d
 
 # install needed packages
 RUN apt-get update
+RUN apt-get upgrade -y
 RUN apt-get install -y \
     libxml2 \
     libboost-filesystem1.74.0 \
