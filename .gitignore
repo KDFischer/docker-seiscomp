@@ -1,6 +1,8 @@
 # Custom settings
 seiscomp-*-debian-*-x86_64.tar.gz
 inventory.xml
+scheli_*.cfg
+compose.yaml
 
 ## OSX settings
 # General
