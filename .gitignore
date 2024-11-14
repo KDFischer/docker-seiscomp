@@ -1,6 +1,6 @@
 # Custom settings
 seiscomp-*-debian-*-x86_64.tar.gz
-inventory.xml
+inventory*.xml
 scheli_*.cfg
 compose.yaml
 

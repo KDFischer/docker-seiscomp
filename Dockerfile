@@ -8,7 +8,7 @@
 # build docker image
 # docker build --rm --tag kdfischer/seiscomp --target seiscomp .
    
-FROM debian:12.6-slim as seiscomp
+FROM debian:bookworm-slim as seiscomp
 LABEL org.opencontainers.image.authors=="Kasper D. Fischer <kasper.fischer@rub.de>"
 
 # install needed packages
