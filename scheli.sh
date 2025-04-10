@@ -16,5 +16,5 @@ export SC_HOST
 seiscomp exec scheli capture ${DEBUG} --interval ${INTERVAL} \
     --xres ${XRES} -yres ${YRES} --offline \
     -o output/${TEMPLATE} \
-    -I "slink://${SLINK_HOST}:18000" \
+    -I "combined://slink/${SLINK_HOST}:18000;sdsarchive//opt/seiscomp/var/lib/archive" \
     --inventory-db ${INVENTORY}
